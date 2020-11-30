@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0E5890C8-FDC6-47C6-BF95-55AB74254AC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{468AA706-02E7-4776-A95A-F2FE0E898C83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterestCalculation.Domain", "src\InterestCalculation.Domain\InterestCalculation.Domain.csproj", "{0803951B-AE18-400C-A993-0BBB58BA23CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0803951B-AE18-400C-A993-0BBB58BA23CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0803951B-AE18-400C-A993-0BBB58BA23CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0803951B-AE18-400C-A993-0BBB58BA23CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0803951B-AE18-400C-A993-0BBB58BA23CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{468AA706-02E7-4776-A95A-F2FE0E898C83} = {0E5890C8-FDC6-47C6-BF95-55AB74254AC1}
+		{0803951B-AE18-400C-A993-0BBB58BA23CA} = {468AA706-02E7-4776-A95A-F2FE0E898C83}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F15DEFC-C2D9-4EC0-AD39-E7A14F301EEA}
+	EndGlobalSection
+EndGlobal

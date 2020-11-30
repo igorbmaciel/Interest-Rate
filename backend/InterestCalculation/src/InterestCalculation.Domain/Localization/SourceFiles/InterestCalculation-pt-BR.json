@@ -1,0 +1,7 @@
+{
+  "culture": "pt-BR",
+  "texts": {
+    "InvalidInitialValue": "Favor informar o nome valor inicial",
+    "InvalidMonth": "Favor informar o tempo em meses"   
+  }
+}
