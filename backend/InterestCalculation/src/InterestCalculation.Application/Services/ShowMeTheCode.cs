@@ -2,7 +2,7 @@
 
 namespace InterestCalculation.Application.Services
 {
-    public class ShowMeTheCode : IShowMeTheCode
+    public class ShowMeTheCode : IShowMeTheCodeAppService
     {
         public string Code()
         {

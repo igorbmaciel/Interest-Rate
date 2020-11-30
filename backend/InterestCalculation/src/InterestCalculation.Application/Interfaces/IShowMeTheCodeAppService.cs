@@ -1,6 +1,6 @@
 ﻿namespace InterestCalculation.Application.Interfaces
 {
-    public interface IShowMeTheCode
+    public interface IShowMeTheCodeAppService
     {
         string Code();
     }

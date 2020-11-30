@@ -11,7 +11,7 @@ namespace Microsoft.Extensions.DependencyInjection
                 .AddDomainDependency();
 
             services.AddTransient<IInterestCalculationAppService, InterestCalculationAppService>();
-            services.AddTransient<IShowMeTheCode, ShowMeTheCode>();
+            services.AddTransient<IShowMeTheCodeAppService, ShowMeTheCode>();
 
             return services;
         }
