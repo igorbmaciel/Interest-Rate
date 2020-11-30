@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterestRate.Client", "..\S
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{11BBFB40-F1AC-4073-BF2D-105446DFDE89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterestCalculation.Application", "src\InterestCalculation.Application\InterestCalculation.Application.csproj", "{FEE9A2DB-BFE4-46A0-BCC4-42631C37079A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterestCalculation.Application", "src\InterestCalculation.Application\InterestCalculation.Application.csproj", "{FEE9A2DB-BFE4-46A0-BCC4-42631C37079A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - API", "0 - API", "{6A450A5D-FAB5-46FF-959D-B013500C03B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterestCalculation.Web", "src\InterestCalculation.Web\InterestCalculation.Web.csproj", "{EFA53B51-796D-40BF-B284-628082A870D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,10 @@ Global
 		{FEE9A2DB-BFE4-46A0-BCC4-42631C37079A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEE9A2DB-BFE4-46A0-BCC4-42631C37079A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEE9A2DB-BFE4-46A0-BCC4-42631C37079A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA53B51-796D-40BF-B284-628082A870D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA53B51-796D-40BF-B284-628082A870D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA53B51-796D-40BF-B284-628082A870D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA53B51-796D-40BF-B284-628082A870D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +53,8 @@ Global
 		{AF0B2A73-F1D2-4D4F-8D71-7EEBAB372DF7} = {8F0D9C3D-C221-43F7-AF9E-ACE60B889004}
 		{11BBFB40-F1AC-4073-BF2D-105446DFDE89} = {0E5890C8-FDC6-47C6-BF95-55AB74254AC1}
 		{FEE9A2DB-BFE4-46A0-BCC4-42631C37079A} = {11BBFB40-F1AC-4073-BF2D-105446DFDE89}
+		{6A450A5D-FAB5-46FF-959D-B013500C03B2} = {0E5890C8-FDC6-47C6-BF95-55AB74254AC1}
+		{EFA53B51-796D-40BF-B284-628082A870D9} = {6A450A5D-FAB5-46FF-959D-B013500C03B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F15DEFC-C2D9-4EC0-AD39-E7A14F301EEA}
