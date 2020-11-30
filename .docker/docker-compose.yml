@@ -13,6 +13,19 @@ services:
             dockerfile: InterestRate/Dockerfile
         ports:
             - "5033:80"
+    interest-calculation-api:
+        container_name: interest-calculation-api
+        image: interest-calculation-api
+        restart: always
+        networks:
+            - interest-network
+        environment:
+            ASPNETCORE_ENVIRONMENT: "Development"
+        build:
+            context: ../backend/
+            dockerfile: InterestCalculation/Dockerfile
+        ports:
+            - "5034:80"
 networks:
   interest-network:
     driver: bridge
