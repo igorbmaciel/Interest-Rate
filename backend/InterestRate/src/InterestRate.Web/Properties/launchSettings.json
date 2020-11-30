@@ -1,0 +1,29 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:5033",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "Interest Rate DEV": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Serilog:MinimumLevel": "Debug"
+      },
+      "applicationUrl": "http://localhost:5033"
+    },
+    "Interest Rate PROD": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production"
+      },
+      "applicationUrl": "http://localhost:5033"
+    }
+  }
+}
