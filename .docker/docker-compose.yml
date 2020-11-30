@@ -1,0 +1,18 @@
+version: "3.1"
+services:    
+    interest-rate-api:
+        container_name: interest-rate-api
+        image: interest-rate-api
+        restart: always
+        networks:
+            - interest-network
+        environment:
+            ASPNETCORE_ENVIRONMENT: "Development"
+        build:
+            context: ../backend/
+            dockerfile: InterestRate/Dockerfile
+        ports:
+            - "5033:80"
+networks:
+  interest-network:
+    driver: bridge
