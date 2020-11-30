@@ -34,7 +34,9 @@ namespace InterestCalculation.Domain.Handlers
 
         private double CalculateInterestRate(double initialValue, int month, double rate)
         {
-            return Math.Truncate(Math.Pow(initialValue * (1 + rate), month));
+            var value = Math.Pow((1 + rate), month);
+            var result = initialValue * value;
+            return Math.Truncate(100 * result) / 100;
         }
     }
 }

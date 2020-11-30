@@ -33,7 +33,7 @@ namespace InterestCalculation.Web
                 .AddCorsAll("AllowAll")
                 .AddApplicationServiceDependency()
                 .AddTnfAspNetCore()
-                .AddInterestRateClient(_configuration["ServicesConfiguration:InterestRateEndpoint:Uri"])
+                .AddInterestRateClient(_configuration["InterestRateEndpoint:Uri"])
                 .AddResponseCompression(options =>
                 {
                     options.Providers.Add<GzipCompressionProvider>();

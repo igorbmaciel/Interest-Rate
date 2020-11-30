@@ -6,6 +6,6 @@ namespace InterestRate.Client
 {
     public class InterestRateConstants
     {
-        public const string GetUrl = "calculajuros";
+        public const string GetUrl = "taxaJuros";
     }
 }
