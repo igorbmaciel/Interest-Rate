@@ -11,7 +11,7 @@ R- Foi escolhida pois o .net core é um cross plataform, sendo facilmente coloca
 <b> Quais APIs e endpoints foram desenvolvidos? </b></br>
 R- Foram criados duas APIs e 3 endpoints.
 
-<b> Explicando cada API </b>
+<b> Explicando cada API </b></br>
 A primeira API é a de Interest Rate, onde nela contém o endpoint de taxaJuros, onde retornará a taxa de juros que é de 0,01. </br>
 A segunda API é a de Interest Calculation, onde nela contém dois endpoints, o de calculajuros, onde retornará o seguinte cálculo de juros:</br>
 Valor Inicial * (1 + juros) ^ Tempo</br>
