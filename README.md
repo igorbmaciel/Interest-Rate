@@ -19,7 +19,9 @@ Valor inicial é um decimal recebido como parâmetro.</br>
 Valor do Juros sendo consultado na API de Interest Rate.</br>
 Tempo é um inteiro, que representa meses, também recebido como parâmetro.</br>
 ^ representa a operação de potência.</br>
-Resultado final sendo truncado (sem arredondamento) em duas casas decimais.</br></br>
+Resultado final sendo truncado (sem arredondamento) em duas casas decimais.</br>
+
+O Outro endpoint é o de showmethecode, onde retorna a url de onde encontra-se o fonte no github</br></br>
 
 <b>Passo a passo para configurar e utilizar o sistema</b>
 - Primeiro realize o clone do projeto
